@@ -33,7 +33,8 @@ module.exports = {
   plugins: [
     new uglifyJsPlugin(),
     new HTMLWebpackPlugin({
-      template: path.resolve(__dirname, 'index.html')
+      filename: 'home.html',
+      template: path.resolve(__dirname, 'home.html')
     }),
     new webpack.HotModuleReplacementPlugin()
   ]
