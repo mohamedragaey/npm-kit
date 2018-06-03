@@ -20,6 +20,7 @@ let rules = [
 ]
 module.exports = [
   {
+    name: 'dist',
     mode: 'production',
     entry: './src/index.js',
     output: {
@@ -41,6 +42,7 @@ module.exports = [
     ]
   },
   {
+    name: 'demo',
     mode: 'production',
     entry: './src/index.js',
     output: {
